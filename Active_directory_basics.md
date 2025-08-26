@@ -15,7 +15,7 @@ Let's look at some of the key objects:
 
 ---
 
-## 👤 Users
+##  Users
 
 Users are one of the most common object types in Active Directory. They are **security principals**, meaning they can be:
 
@@ -30,7 +30,7 @@ Users are one of the most common object types in Active Directory. They are **se
 
 ---
 
-## 🖥️ Machines
+##  Machines
 
 Each computer that joins the domain becomes a **machine object** in AD.
 
@@ -49,7 +49,7 @@ Each computer that joins the domain becomes a **machine object** in AD.
 
 ---
 
-## 🛡️ Security Groups
+##  Security Groups
 
 Security groups help assign permissions to multiple users/machines at once.
 
