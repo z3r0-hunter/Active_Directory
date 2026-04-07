@@ -73,9 +73,7 @@ When the user wants to access `\\fileserver\share`, they send:
 
 -  Regularly rotate the **krbtgt** account password (twice in succession).
 -  Enable **Account Lockout Policies** to detect brute-force attempts.
--  Use **LSA Protection** and restrict access to **LSASS memory** (prevent ticket dumping).
 -  Enforce **Strong Password Policies** on all service accounts.
--  Implement **Kerberos Armoring (FAST)** to protect Kerberos traffic.
 -  Use **tiered administration**: avoid logging into lower-trust systems with privileged accounts.
 
 ---
